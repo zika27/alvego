@@ -2,9 +2,10 @@
 extends _root_/layout
 
 block content
- h5 Markdown 
- p - инструмент преобразования текста в HTML для веб-разработчиков. Markdown позволяет Вам создавать легко читабельный и записываемый код в формате, который может быть преобразован в валидный XHTML (или HTML).
- p Таким образом, "Markdown" представляет собой: 
+ p
+  b Markdown
+  | - инструмент преобразования текста в HTML для веб-разработчиков. Markdown позволяет Вам создавать легко читабельный и записываемый код в формате, который может быть преобразован в валидный XHTML (или HTML).
+ h5 Таким образом, "Markdown" представляет собой: 
  li простой текст, с форматированным синтаксисом; 
  li программный инструмент, записанный в Perl, который преобразовывает простой форматированный текст в HTML.
  p 
@@ -19,7 +20,10 @@ block content
  li Строгие конвенции, которые надо соблюдать.
  li Определенные символы нужно эскапировать. (Если вы хотите ввести один из технических символов, используемых в Markdown для размётки, то перед ним надо ставить обратный слэш).
  h5 Ссылки:
- p
-  | a(href="http://daringfireball.net/projects/markdown/syntax/", style="color:#000000") Синтаксис
-  | a(href="http://daringfireball.net/projects/markdown/dingus/", style="color:#000000") Онлайн редактор 
-  | a(href="http://nodeguide.ru/doc/dailyjs-nodepad/node-tutorial-10/", style="color:#000000") Установка Markdown в Nodejs
+ ul
+  li
+   a(href="http://daringfireball.net/projects/markdown/syntax/", target="_blank") Синтаксис
+  li
+   a(href="http://daringfireball.net/projects/markdown/dingus/", target="_blank") Онлайн редактор 
+  li
+   a(href="http://nodeguide.ru/doc/dailyjs-nodepad/node-tutorial-10/", target="_blank") Установка Markdown в Nodejs
